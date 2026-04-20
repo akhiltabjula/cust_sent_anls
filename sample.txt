@@ -1,0 +1,21 @@
+Act as a data engineer and respond to below use case
+
+I am working on a use case where I've got customers information from an external source
+Language: Python
+Framework: Spark
+
+
+Main dataset:
+	Description: customers information from with in the organization
+				Has all information with respect to customers (both active, non active along with registerd address)
+	Name: customer_master.csv			
+Secondary dataset:
+	Description: customers information from external source which has address and reviews
+				Has all information with respect to customers address and reviews
+	Name: Leads_Customer_Data.xlsx
+	
+Requirement:
+	I want to use secondary dataset and get accociated customer_id from main dataset. So, I can map all attributes from secondary dataset to customer_master
+	
+Final output:
+All columns from Secondary dataset and "customer_id" from Main dataset
